@@ -1,0 +1,483 @@
+{
+  "students": [
+    {
+      "id": "1763374515285",
+      "grNo": "1",
+      "firstName": "Jane Khan",
+      "fatherName": "James",
+      "address": "Near Postal Life Insuarance",
+      "dateOfBirth": "2003-11-14",
+      "birthPlace": "Larkana",
+      "dateOfAdmission": "2025-11-17",
+      "class": "Class 10",
+      "section": "A",
+      "admissionFees": 10000,
+      "lastSchoolAttended": "",
+      "isTransferStudent": false,
+      "dateOfLeaving": "",
+      "classInWhichLeft": "",
+      "reasonOfLeaving": "",
+      "remarks": "",
+      "religion": "Islam",
+      "parentContact": "033354279226",
+      "monthlyFees": 0,
+      "feesPaid": 19000,
+      "totalFees": 10000,
+      "familyId": "family-1763374515286",
+      "feesHistory": [
+        {
+          "id": "challan-1763374515286-0",
+          "month": "Admission Fees",
+          "amount": 10000,
+          "paid": true,
+          "date": "2025-11-17",
+          "dueDate": "2025-11-17",
+          "status": "paid",
+          "type": "admission",
+          "paymentTimestamp": "2025-11-17T10:15:15.286Z"
+        },
+        {
+          "id": "challan-1763374515285-1763376511380",
+          "month": "October 2025",
+          "amount": 9000,
+          "dueDate": "2025-11-27",
+          "description": "",
+          "paid": true,
+          "date": "2025-11-17",
+          "status": "paid",
+          "type": "monthly",
+          "generationTimestamp": "2025-11-17T10:48:31.380Z",
+          "paymentMethod": "cash",
+          "paymentTimestamp": "2025-11-17T10:48:36.926Z"
+        },
+        {
+          "id": "challan-1763374515285-1763376544433",
+          "month": "September 2025",
+          "amount": 9000,
+          "dueDate": "2025-11-27",
+          "description": "",
+          "paid": false,
+          "date": null,
+          "status": "pending",
+          "type": "monthly",
+          "generationTimestamp": "2025-11-17T10:49:04.433Z"
+        },
+        {
+          "id": "challan-1763374515285-1763376553827",
+          "month": "August 2025",
+          "amount": 9000,
+          "dueDate": "2025-11-27",
+          "description": "",
+          "paid": false,
+          "date": null,
+          "status": "pending",
+          "type": "monthly",
+          "generationTimestamp": "2025-11-17T10:49:13.827Z"
+        }
+      ],
+      "status": "studying",
+      "admissionTimestamp": "2025-11-17T10:15:15.286Z"
+    },
+    {
+      "id": "1763375270345",
+      "grNo": "1",
+      "firstName": "Muhammad Tahir",
+      "fatherName": "Kaleemullah",
+      "address": "Near Postal Life Insuarance Larkana",
+      "dateOfBirth": "2019-11-29",
+      "birthPlace": "Larkana",
+      "dateOfAdmission": "2025-11-17",
+      "class": "Class 10",
+      "section": "A",
+      "admissionFees": 10000,
+      "lastSchoolAttended": "",
+      "isTransferStudent": false,
+      "dateOfLeaving": "",
+      "classInWhichLeft": "",
+      "reasonOfLeaving": "",
+      "remarks": "",
+      "religion": "Islam",
+      "parentContact": "033354279226",
+      "monthlyFees": 0,
+      "feesPaid": 10000,
+      "totalFees": 10000,
+      "familyId": "family-1763375270345",
+      "feesHistory": [
+        {
+          "id": "challan-1763375270345-0",
+          "month": "Admission Fees",
+          "amount": 10000,
+          "paid": true,
+          "date": "2025-11-17",
+          "dueDate": "2025-11-17",
+          "status": "paid",
+          "type": "admission",
+          "paymentTimestamp": "2025-11-17T10:27:50.345Z"
+        }
+      ],
+      "status": "studying",
+      "admissionTimestamp": "2025-11-17T10:27:50.345Z"
+    }
+  ],
+  "expenses": [
+    {
+      "id": "1763375317604",
+      "description": "Chairs",
+      "amount": "25000",
+      "date": "2025-11-15",
+      "category": "Stationary",
+      "addedTimestamp": "2025-11-17T10:28:37.605Z"
+    }
+  ],
+  "income": {
+    "canteenIncome": [
+      {
+        "id": "c1",
+        "date": "2025-11-05",
+        "amount": 1500,
+        "description": "Weekly canteen sales"
+      }
+    ],
+    "sponsorshipIncome": [
+      {
+        "id": "s1",
+        "date": "2025-11-10",
+        "amount": 5000,
+        "description": "Book sponsorship from local publisher",
+        "sponsor": "ABC Publishers"
+      }
+    ]
+  },
+  "staff": [
+    {
+      "id": "1763375356936",
+      "firstName": "Waqar",
+      "lastName": "Abro",
+      "phone": "03337227847",
+      "position": "English Teacher",
+      "salary": "35000",
+      "dateOfJoining": "2025-09-25",
+      "jobType": "Teaching",
+      "subject": "English",
+      "photo": null,
+      "salaryHistory": [
+        {
+          "id": "advance-1763375356936-1763375766159",
+          "month": "November 2025",
+          "baseSalary": 0,
+          "allowances": 0,
+          "deductions": 25000,
+          "netSalary": -25000,
+          "status": "advance",
+          "paymentDate": "2025-11-17",
+          "reason": "Need Money",
+          "paymentTimestamp": "2025-11-17T10:36:06.160Z"
+        },
+        {
+          "id": "sal-1763375356936-1763375789263",
+          "month": "2025-11",
+          "baseSalary": 35000,
+          "allowances": 0,
+          "deductions": 0,
+          "netSalary": 35000,
+          "status": "paid",
+          "paymentDate": "2025-11-17",
+          "paymentMethod": "cash",
+          "paymentTimestamp": "2025-11-17T10:36:29.263Z"
+        }
+      ],
+      "attendance": [],
+      "addedTimestamp": "2025-11-17T10:29:16.936Z"
+    }
+  ],
+  "classes": [
+    {
+      "subjects": [
+        {
+          "id": "1-1763301798606",
+          "name": "Sindhi",
+          "teacherId": "",
+          "teacherName": "",
+          "maxMarks": 100
+        },
+        {
+          "id": "1-1763301833863",
+          "name": "English",
+          "teacherId": "",
+          "teacherName": "",
+          "maxMarks": 100
+        },
+        {
+          "id": "1-1763301837237",
+          "name": "Urdu",
+          "teacherId": "",
+          "teacherName": "",
+          "maxMarks": 100
+        },
+        {
+          "id": "1-1763301841173",
+          "name": "Physics",
+          "teacherId": "",
+          "teacherName": "",
+          "maxMarks": 100
+        },
+        {
+          "id": "1-1763301847313",
+          "name": "Chemistry",
+          "teacherId": "1763301879795",
+          "teacherName": "Waqar Abro",
+          "maxMarks": 100
+        }
+      ],
+      "id": "1",
+      "name": "Class 10",
+      "monthlyFees": "9000",
+      "sections": [
+        {
+          "id": "10A",
+          "name": "A",
+          "studentCount": 4
+        },
+        {
+          "id": "10B",
+          "name": "B",
+          "studentCount": 0
+        }
+      ],
+      "totalStudents": 4
+    },
+    {
+      "id": "1763294782262",
+      "subjects": [],
+      "sections": [
+        {
+          "id": "1763294767215-A",
+          "name": "A",
+          "studentCount": 0
+        }
+      ],
+      "name": "Class 9",
+      "monthlyFees": "8000",
+      "totalStudents": 0
+    }
+  ],
+  "subsidies": [
+    {
+      "id": "1",
+      "quarter": "Q1",
+      "year": 2025,
+      "amount": 350000,
+      "ngoName": "Education for All Foundation",
+      "receivedDate": "2024-01-15",
+      "expectedDate": "",
+      "status": "received",
+      "description": "Quarterly education subsidy for operational costs"
+    }
+  ],
+  "studentsAttendance": [
+    {
+      "id": "1",
+      "date": "2025-11-15",
+      "classId": "Class 10",
+      "records": [
+        {
+          "studentId": "1",
+          "status": "present"
+        },
+        {
+          "studentId": "4",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "id": "b6c3",
+      "date": "2025-11-16",
+      "classId": "Class 10",
+      "records": [
+        {
+          "studentId": "1",
+          "status": "present"
+        },
+        {
+          "studentId": "3",
+          "status": "present"
+        },
+        {
+          "studentId": "4",
+          "status": "present"
+        },
+        {
+          "studentId": "5",
+          "status": "absent"
+        }
+      ]
+    },
+    {
+      "id": "c30c",
+      "date": "2025-11-14",
+      "classId": "Class 10",
+      "records": [
+        {
+          "studentId": "1",
+          "status": "absent"
+        },
+        {
+          "studentId": "3",
+          "status": "present"
+        },
+        {
+          "studentId": "4",
+          "status": "present"
+        },
+        {
+          "studentId": "5",
+          "status": "absent"
+        }
+      ]
+    },
+    {
+      "id": "396e",
+      "date": "2025-11-13",
+      "classId": "Class 10",
+      "records": [
+        {
+          "studentId": "1",
+          "status": "present"
+        },
+        {
+          "studentId": "3",
+          "status": "absent"
+        },
+        {
+          "studentId": "4",
+          "status": "late"
+        },
+        {
+          "studentId": "5",
+          "status": "leave"
+        }
+      ]
+    },
+    {
+      "id": "5a1e",
+      "date": "2025-11-12",
+      "classId": "Class 10",
+      "records": [
+        {
+          "studentId": "1",
+          "status": "absent"
+        },
+        {
+          "studentId": "3",
+          "status": "absent"
+        },
+        {
+          "studentId": "4",
+          "status": "absent"
+        },
+        {
+          "studentId": "5",
+          "status": "absent"
+        }
+      ]
+    }
+  ],
+  "staffAttendance": [
+    {
+      "id": "1",
+      "date": "2025-11-15",
+      "classId": "Class 10",
+      "records": [
+        {
+          "studentId": "1",
+          "status": "present"
+        },
+        {
+          "studentId": "4",
+          "status": "present"
+        }
+      ]
+    }
+  ],
+  "settings": {
+    "schoolInfo": {
+      "level": "high",
+      "hasPG": true,
+      "name": "SEF High School Larkana",
+      "gradingStructure": [
+        {
+          "minPercentage": 90,
+          "remarks": "Excellent",
+          "maxPercentage": 100,
+          "id": 1,
+          "grade": "A+"
+        },
+        {
+          "minPercentage": 80,
+          "remarks": "Very Good",
+          "maxPercentage": 89,
+          "id": 2,
+          "grade": "A"
+        },
+        {
+          "minPercentage": 70,
+          "remarks": "Good",
+          "maxPercentage": 79,
+          "id": 3,
+          "grade": "B+"
+        },
+        {
+          "minPercentage": 60,
+          "remarks": "Satisfactory",
+          "maxPercentage": 69,
+          "id": 4,
+          "grade": "B"
+        },
+        {
+          "minPercentage": 50,
+          "remarks": "Average",
+          "maxPercentage": 59,
+          "id": 5,
+          "grade": "C"
+        },
+        {
+          "minPercentage": 40,
+          "remarks": "Below Average",
+          "maxPercentage": 49,
+          "id": 6,
+          "grade": "D"
+        },
+        {
+          "minPercentage": 0,
+          "remarks": "Fail",
+          "maxPercentage": 39,
+          "id": 7,
+          "grade": "F"
+        }
+      ],
+      "logo": null,
+      "dateFormat": "DD/MM/YYYY",
+      "currency": "PKR",
+      "levelDetails": {
+        "primary": {
+          "to": 5,
+          "from": 1
+        },
+        "middle": {
+          "to": 8,
+          "from": 6
+        },
+        "high": {
+          "to": 10,
+          "from": 9
+        }
+      },
+      "theme": "light",
+      "hasNursery": true,
+      "hasKG": true,
+      "sidebarCollapsed": false,
+      "fundingType": "traditional"
+    }
+  }
+}
